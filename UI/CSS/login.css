@@ -1,0 +1,152 @@
+@font-face{
+    src: url(FONTS/Montserrat-Regular.ttf);
+    font-family: Montserrat;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.menu {
+    width: 100%;
+    height: 70px;
+    border-bottom: .1px solid #dddddd;
+}
+
+.leftmenu {
+    width: 30%;
+    line-height: 70px;
+    float: left;
+}
+
+.leftmenu h4 {
+    padding-left: 70px;
+    color: #0393e7;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Montserrat;
+    transition: all .3s ease-in-out;
+}
+
+.leftmenu a {
+    text-decoration: none;
+}
+
+.leftmenu h4:hover {
+    color: #696969;
+    transition: all .3s ease-in-out;
+}
+
+
+.box h1{
+    color: #0393e7;
+    font-weight: 800;
+    font-size: 16px;
+    font-family: Montserrat;
+    margin-left: 25%;
+    width: 194px;
+    text-align: center;
+}
+
+.box{
+    width: 400px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border: 0.8px solid #dddddd;
+    border-radius: 6px; 
+}
+
+.box input[type="text"],.box input[type="email"],.box input[type= "password"]{
+    border: 0;
+    background: transparent;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    color: #696969;
+    font-family: Montserrat;
+    font-weight: 600;
+    border: 2px solid #696969;
+    padding: 12px 10px;
+    width: 250px;
+    outline: none;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+
+.box input[type="text"]:focus,.box input[type="email"]:focus,.box input[type= "password"]:focus{
+    width: 300px;
+    border-color: #0393e7;
+    background: transparent;
+    color: #696969;
+}
+
+.box input[type="submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 15px auto;
+    text-align: center;
+    border: 2px solid #0393e7;
+    padding: 16px 50px;
+    outline: none;
+    color: #0393e7;
+    font-family: Montserrat;
+    font-weight: 600;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+
+.box input[type="submit"]:hover{
+    background: #0393e7;
+    color: #ffffff;
+    border: 2px solid #0393e7;
+}
+
+.box p{
+    text-align: center;
+    font-family: Montserrat;
+   font-weight: 550;
+   font-size: 14px;
+   color: #696969;
+}
+
+.box a{
+   text-align: center;
+   color: #696969;
+   font-family: Montserrat;
+   font-weight: 600;
+   font-size: 14px;
+   text-decoration-style: dotted; 
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #696969;
+    text-align: center;
+    border-top: 0.1px solid #dddddd;
+    margin-bottom: 7px;
+    font-family: Montserrat;
+  }
+
+  .footer p{
+    line-height: 70px;
+
+  }
+
+
