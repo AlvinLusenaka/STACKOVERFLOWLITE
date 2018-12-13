@@ -1,0 +1,187 @@
+@font-face{
+    src: url(FONTS/Montserrat-Regular.ttf);
+    font-family: Montserrat;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.menu {
+    width: 100%;
+    height: 70px;
+    border-bottom: .1px solid #dddddd;
+}
+
+.leftmenu {
+    width: 30%;
+    line-height: 70px;
+    float: left;
+}
+
+.leftmenu h4 {
+    padding-left: 70px;
+    color: #0393e7;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Montserrat;
+}
+
+.rightmenu {
+    width: 70%;
+    height: 100px;
+    float: right;
+}
+
+.rightmenu h4 a{
+    font-family: Montserrat;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 14px;
+    color: #696969;
+    border: 2px solid #696969;
+    padding: 5px 20px;
+    border-radius: 6px;
+    margin-top: 16px;
+    margin-left: 700px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.rightmenu h4 a:hover{
+    background-color: #0393e7;
+    border: 2px solid #0393e7;
+    color: #ffffff;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.text {
+    width: 100%;
+    margin-top: 125px;
+    text-align: center;
+
+}
+
+.text h4{
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: 700;
+    color: #696969;
+    margin-bottom: 14px;
+}
+
+.text h1 {
+    font-size: 80px;
+    font-family: Montserrat;
+    font-weight: 700;
+    color: #696969;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.text h3{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Montserrat;
+    color: #696969;
+    letter-spacing: 0.4px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.text h3 b {
+    color: #0393e7;
+}
+
+#buttonone {
+    background-color: #0393e7;
+    color: #ffffff;
+    font-size: 12px;
+    font-family: Montserrat;
+    font-weight: bold;
+    line-height: 40px;
+    width: 150px;
+    margin-top: 25px;
+    border: 3px solid #0393e7;
+    border-radius: 6px;
+    transition: 0.6s;
+    overflow: hidden;
+}
+
+#buttonone:focus {
+    outline: none;
+}
+
+#buttonone:hover {
+    background: #696969;
+    cursor: pointer;
+    color: #ffffff;
+    border: 3px solid #696969;
+
+}
+
+#buttonone:hover:before{
+    transform: translateX(300px) skewX(-15deg);
+    opacity: .1;
+    transition: .7s;
+}
+
+
+
+#buttontwo {
+    background-color: transparent;
+    color: #0393e7;
+    font-size: 12px;
+    font-family: Montserrat;
+    font-weight: bold;
+    line-height: 40px;
+    width: 150px;
+    margin-top: 25px;
+    border: 3px solid #0393e7;
+    border-radius: 6px;
+    transition: 0.6s;
+    overflow: hidden;
+}
+
+#buttontwo:focus {
+    outline: none;
+}
+
+#buttontwo:hover {
+    background: #696969;
+    cursor: pointer;
+    color: #ffffff;
+    border: 3px solid #696969;
+
+}
+
+#buttontwo:hover:before{
+    transform: translateX(300px) skewX(-15deg);
+    opacity: .1;
+    transition: .7s;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #696969;
+    text-align: center;
+    border-top: 0.1px solid #dddddd;
+    margin-bottom: 7px;
+    font-family: Montserrat;
+  }
+
+.footer p{
+    line-height: 70px;
+
+  }
+
+
+
+
