@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ask Question</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="CSS/create_post.css" />
+    <script defer src="https://use.fontawesome.com/releases/v5.6.1/js/all.js" integrity="sha384-R5JkiUweZpJjELPWqttAYmYM1P3SNEJRM6ecTQF05pFFtxmCO+Y1CiUhvuDzgSVZ"
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="sidebar">
+        <ul>
+            <li>
+                <h4>STACKOVERFLOW-LITE</h4>
+            </li>
+            <li><a class="home" href="dashboard.html">HOME</a></li>
+            <li><a class="question" href="create_post.html">ASK QUESTION</a></li>
+            <li><a class="history" href="history.html">VIEW HISTORY</a></li>
+        </ul>
+    </div>
+    <div class="menu">
+        <div class="search-box-wrapper">
+            <input class="search-txt" type="text" name="" placeholder="Search questions...">
+            <button class="search-box-button"><a href="#">SEARCH</a></button>
+        </div>
+        <div class="rightmenu">
+            <h4><a href="profile.html">PROFILE</a></h4>
+        </div>
+    </div>
+    <div class="create-post">
+        <h1>What is your question?</h1>
+        <form action="dashboard.html" method="POST">
+            <textarea name="question" placeholder="Ask Away..."></textarea>
+            <input type="submit" name="" value="Ask Question">
+        </form>
+    </div>
+    <div class="footer">
+        <p>&copy; 2018 Stackoverflow-lite</p>
+    </div>
+</body>
+
+</html>
